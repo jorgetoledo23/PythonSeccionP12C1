@@ -1,15 +1,17 @@
 edad = 0
-bandera = False
+semaforo = False
 
-while bandera == False:
+while semaforo == False:
     try:
         print("Ingresa tu Edad")
         edad = int(input())
-        bandera = True
+        semaforo = True
     except ValueError:
         print("Solo se aceptan valores NUMERICOS")
     except:
         print("Algo salio mal!")
+    #Aca FINALIZA EL WHILE
+
 print(f"Ingreso Exitoso. Tu edad es: {edad}")
 #print("Ingreso Exitoso. Tu edad es:", edad)
 
