@@ -11,8 +11,7 @@ while semaforo == False:
     except:
         print("Algo salio mal!")
     #Aca FINALIZA EL WHILEE
-    #asd
-
+    #Edit 19-05-2021
 
 print(f"Ingreso Exitoso. Tu edad es: {edad}")
 #print("Ingreso Exitoso. Tu edad es:", edad)
