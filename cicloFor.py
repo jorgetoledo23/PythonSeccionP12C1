@@ -26,6 +26,6 @@ for x in range(2, 6):
 
 #Comienzo, Termino, Incremento
 #              C, T, I
-for x in range(2, 6, 2):
+for x in range(1, 6, 2):
     print(x)
     
