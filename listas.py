@@ -19,3 +19,7 @@ print(listNumeros)
 print(listNumeros[0])
 listNumeros.sort(reverse=True)
 print(listNumeros)
+
+for n in listNumeros:
+    print(n)
+    
